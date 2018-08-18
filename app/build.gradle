@@ -4,6 +4,10 @@ android {
     compileSdkVersion 27
     buildToolsVersion '27.0.3'
 
+    ext {
+        supportLibVersion = '27.1.1'
+    }
+
     defaultConfig {
         applicationId "com.example.android.miwok"
         minSdkVersion 15
